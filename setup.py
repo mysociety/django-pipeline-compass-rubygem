@@ -6,13 +6,15 @@ django-pipeline-compass-rubygem is a Compass compiler for django-pipeline using 
 """
 
 setup(
-    name='django-pipeline-compass-rubygem',
-    version='0.1.8',
+    name='mysociety-django-pipeline-compass-rubygem',
+    version='0.1.8.1',
     description=description,
     long_description=open('README.rst').read(),
     author='Patrick Stadler',
     author_email='patrick.stadler@gmail.com',
-    url='https://github.com/mila-labs/django-pipeline-compass-rubygem',
+    maintainer='Matthew Somerville',
+    maintainer_email='matthew@mysociety.org',
+    url='https://github.com/mysociety/django-pipeline-compass-rubygem',
     license='MIT License',
     platforms=['OS Independent'],
     packages=find_packages(),
